@@ -51,9 +51,9 @@ When using an [immediately-invoked function expression](/en-US/docs/Glossary/IIF
 to be treated as an expression instead of a declaration.
 
 ```js
-void function iife() {
+void (() => {
   console.log("Executed!");
-}();
+})();
 
 // Output: "Executed!"
 ```
